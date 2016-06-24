@@ -25,6 +25,8 @@ ground = patch(xdat2,ydat2, [0 0 0 0],'g');
 %Timer label:
 timer = text(-5,14,'0.0','FontSize',28);
 
+plot(zarray(:,1),zarray(:,2),'--k');
+
 hold off
 axis([xmin,xmax,-0.4,15])
 

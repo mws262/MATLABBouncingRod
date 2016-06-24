@@ -22,7 +22,7 @@ p.R = .7; % Restitution coefficient
 
 tfinal = 8; % We'll simulate this many seconds
 
-inits = [-5, 5, rand(1,4)]'; %Initial conditions [x,y,theta,xdot,ydot,thetadot]
+inits = [-5, 5, 3*rand(1,4)]'; %Initial conditions [x,y,theta,xdot,ydot,thetadot]
 
 optionsFlight = odeset('AbsTol',1e-4,'Events',@contact); % Look for a contact event if the rod is in flight.
 optionsSliding = odeset('AbsTol',1e-4); % No events can cause us to leave sliding in this model.
