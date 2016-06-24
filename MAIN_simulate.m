@@ -36,6 +36,7 @@ slidingFlag = false;
 
 % Keep integrating until we get to time, tfinal. Will have many transition
 % events!
+
 while (time < tfinal)
     %% Integrate the dynamics and exit when collisions occur
     if slidingFlag
@@ -84,7 +85,3 @@ end
 
 % Run animation
 animate(tarray,zarray,p)
-
-
-
-

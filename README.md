@@ -12,3 +12,6 @@ This is an example of how event detection works in MATLAB with integrator ODE45.
 4. flightPhase.m -- Equations of motion for the flying rod.
 5. contact.m -- Conditions passed to ODE45 so it can determine when events occur and what to do.
 6. animate.m -- Draw the scene and show what happened during the simulation.
+
+### Video:
+https://www.youtube.com/watch?v=G5IpQ53SY6A
