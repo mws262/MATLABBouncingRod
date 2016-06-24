@@ -1,0 +1,8 @@
+# Bouncing & sliding rod simulator
+## ODE45 event detection example
+
+This is an example of how event detection works in MATLAB with integrator ODE45. A simple rod bounces and tumbles on flat ground until it finally begins sliding.
+
+Files:
+MAIN_simulate.m -- Run this first!
+deriveCollisions.m -- Derives contact map equations to determine how the rod acts after a collision. This file 
